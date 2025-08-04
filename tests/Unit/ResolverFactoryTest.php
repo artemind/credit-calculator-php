@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-use ArtyomE\CreditCalculator\Enums\CalculationType;
-use ArtyomE\CreditCalculator\ResolverFactory;
-use ArtyomE\CreditCalculator\Resolvers\AnnuityResolver;
-use ArtyomE\CreditCalculator\Resolvers\BulletResolver;
-use ArtyomE\CreditCalculator\Resolvers\DifferentiatedResolver;
+use Artemind\CreditCalculator\Enums\CalculationType;
+use Artemind\CreditCalculator\ResolverFactory;
+use Artemind\CreditCalculator\Resolvers\AnnuityResolver;
+use Artemind\CreditCalculator\Resolvers\BulletResolver;
+use Artemind\CreditCalculator\Resolvers\DifferentiatedResolver;
 
 it('can create annuity resolver', function () {
     $resolver = ResolverFactory::createResolver(CalculationType::annuity);

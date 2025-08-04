@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ArtyomE\CreditCalculator\DTO;
+namespace Artemind\CreditCalculator\DTO;
 
-use ArtyomE\CreditCalculator\DTO\Validators\Min;
+use Artemind\CreditCalculator\DTO\Validators\Min;
 use Spatie\DataTransferObject\Attributes\MapTo;
 use Spatie\DataTransferObject\DataTransferObject;
 

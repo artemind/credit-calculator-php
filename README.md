@@ -18,14 +18,14 @@ A simple PHP-based Credit Calculator that supports three types of loan payment c
 ## Installation
 
 ```bash
-composer require artyom-e/credit-calculator
+composer require artemind/credit-calculator
 ```
 
 ## Usage
 
 ```php
-use ArtyomE\CreditCalculator\ResolverFactory;
-use ArtyomE\CreditCalculator\Enums\CalculationType;
+use Artemind\CreditCalculator\ResolverFactory;
+use Artemind\CreditCalculator\Enums\CalculationType;
 
 $resolver = ResolverFactory::createResolver(CalculationType::annuity);
 

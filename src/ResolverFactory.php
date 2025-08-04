@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace ArtyomE\CreditCalculator;
+namespace Artemind\CreditCalculator;
 
-use ArtyomE\CreditCalculator\Enums\CalculationType;
-use ArtyomE\CreditCalculator\Exceptions\CalculationTypeIsNotImplementedException;
-use ArtyomE\CreditCalculator\Resolvers\AbstractResolver;
-use ArtyomE\CreditCalculator\Resolvers\AnnuityResolver;
-use ArtyomE\CreditCalculator\Resolvers\BulletResolver;
-use ArtyomE\CreditCalculator\Resolvers\DifferentiatedResolver;
+use Artemind\CreditCalculator\Enums\CalculationType;
+use Artemind\CreditCalculator\Exceptions\CalculationTypeIsNotImplementedException;
+use Artemind\CreditCalculator\Resolvers\AbstractResolver;
+use Artemind\CreditCalculator\Resolvers\AnnuityResolver;
+use Artemind\CreditCalculator\Resolvers\BulletResolver;
+use Artemind\CreditCalculator\Resolvers\DifferentiatedResolver;
 
 class ResolverFactory
 {

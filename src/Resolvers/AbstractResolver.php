@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ArtyomE\CreditCalculator\Resolvers;
+namespace Artemind\CreditCalculator\Resolvers;
 
-use ArtyomE\CreditCalculator\DTO\PaymentScheduleDto;
+use Artemind\CreditCalculator\DTO\PaymentScheduleDto;
 
 abstract class AbstractResolver
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ArtyomE\CreditCalculator\Exceptions;
+namespace Artemind\CreditCalculator\Exceptions;
 
 class CalculationTypeIsNotImplementedException extends \Exception
 {

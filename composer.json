@@ -1,14 +1,14 @@
 {
-    "name": "artyom-e/credit-calculator",
+    "name": "artemind/credit-calculator",
     "description": "A simple PHP-based Credit Calculator that supports multiple types of loan payment calculations",
     "keywords": [
-        "artyom-e",
+        "artemind",
         "credit-calculator",
         "payment schedule",
         "loan",
         "credit"
     ],
-    "homepage": "https://github.com/artyom-e/credit-calculator-php",
+    "homepage": "https://github.com/artemind/credit-calculator-php",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -20,7 +20,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "ArtyomE\\CreditCalculator\\": "src/"
+            "Artemind\\CreditCalculator\\": "src/"
         }
     },
     "require": {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ArtyomE\CreditCalculator\Enums;
+namespace Artemind\CreditCalculator\Enums;
 
 enum CalculationType
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ArtyomE\CreditCalculator\DTO\Validators;
+namespace Artemind\CreditCalculator\DTO\Validators;
 
 use Spatie\DataTransferObject\Validation\ValidationResult;
 use Spatie\DataTransferObject\Validator;

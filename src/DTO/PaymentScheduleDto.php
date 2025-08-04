@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ArtyomE\CreditCalculator\DTO;
+namespace Artemind\CreditCalculator\DTO;
 
 use Spatie\DataTransferObject\Attributes\CastWith;
 use Spatie\DataTransferObject\Attributes\MapTo;

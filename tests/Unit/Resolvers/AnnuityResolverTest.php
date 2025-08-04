@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-use ArtyomE\CreditCalculator\DTO\PaymentScheduleDto;
-use ArtyomE\CreditCalculator\DTO\PaymentScheduleItemDto;
-use ArtyomE\CreditCalculator\Resolvers\AnnuityResolver;
+use Artemind\CreditCalculator\DTO\PaymentScheduleDto;
+use Artemind\CreditCalculator\DTO\PaymentScheduleItemDto;
+use Artemind\CreditCalculator\Resolvers\AnnuityResolver;
 
 it('can resolve annuity payment schedule', function () {
     $resolver = new AnnuityResolver();
