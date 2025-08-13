@@ -1,4 +1,4 @@
-# PHP Credit Calculator Package
+# 🏦 PHP Credit Calculator Package
 
 A simple PHP-based Credit Calculator that supports three types of loan payment calculations:
 - **Annuity Payments**

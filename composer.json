@@ -14,8 +14,9 @@
     "authors": [
         {
             "name": "Artem Yeremenko",
-            "email": "contact@artemind.com",
-            "role": "Developer"
+            "email": "contact@artemind.dev",
+            "role": "Developer",
+            "homepage": "https://artemind.dev"
         }
     ],
     "autoload": {
