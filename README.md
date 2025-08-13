@@ -84,3 +84,10 @@ $paymentSchedule = $resolver->resolve(6, 5000, 45);
    ]
 }
 ```
+
+## 👨‍💻 Author
+
+**Artem Yeremenko**
+
+- Website: [artemind.dev](https://artemind.dev)
+- GitHub: [@artemind](https://github.com/artemind)
